@@ -12,6 +12,10 @@ void main()
     strcpy(str1,str);
     printf("Copied string is:%s\n",str1);
     printf("Concatenated string is:%s\n",  strcat(str1,str));
+    if(strcmp(str,str1))
+       printf("Equal");
+    else
+       printf("Not Equal");
     // printf("reverse:%d\n",strrev(str));
 
 }
