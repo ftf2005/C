@@ -7,15 +7,13 @@ void main()
     printf("Enter the string:");
     scanf("%s",str);
     printf("Length of string is:%d \n",strlen(str));
-    printf("Enter the string to be copied:");
-    scanf("%s",str1);
     strcpy(str1,str);
     printf("Copied string is:%s\n",str1);
     printf("Concatenated string is:%s\n",  strcat(str1,str));
     if(strcmp(str,str1))
-       printf("Equal");
+       printf("Equal\n");
     else
-       printf("Not Equal");
+       printf("Not Equal\n");
     // printf("reverse:%d\n",strrev(str));
 
 }
