@@ -24,7 +24,7 @@ void main()
     printf("addition of  matrices:\n");
     for(i=0;i<row;i++)
     {
-        for(j=0;j<col;j++)
+        for(j=0;j<col;j++) 
         {
             c[i][j]=a[i][j]+b[i][j];
             printf("%d\t",c[i][j]);
